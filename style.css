@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fundo{
+background-image: url(física.jpeg);
+height: 100vh;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color:pink;
+    opacity: .90;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.tecla{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.tecla:hover{
+    background-color: white;
+    color: black;
+}
+
+#resultado{
+    background-color: white;
+    width: 96%;
+    height: 65px;
+    margin: 0 auto;
+    border-radius: 3px;
+    font-size: 40px;
+    color: black;
+    text-align: right;
+    padding: 20px;
+}   
